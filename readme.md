@@ -13,3 +13,9 @@ Ein Django Lern-Projekt mit Models und Co.
 ### Installieren der Abhängigkeiten
 
     (env) pip install -r requirements.txt
+
+## Starten des Runservers
+
+    python manage.py runserver
+
+`CTRL + C` zum beenden
