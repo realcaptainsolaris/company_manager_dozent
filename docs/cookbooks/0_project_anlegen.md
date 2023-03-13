@@ -70,7 +70,7 @@ und auf der Shell installieren:
 ---------------------------------
 (eventenv) pwd
 django_projects\event_project
-(eventenv) django-admin startproject event_manager
+(eventenv) django-admin startproject company_manager
 
 => Es wird die Dateistruktur angelegt. Nun gibt es ein äußeres
 und ein inneres event_manager-Verzeichnis.
