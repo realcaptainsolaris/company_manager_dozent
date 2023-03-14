@@ -8,8 +8,6 @@
 
 Ein Projekt eurer Wahl erstellen, zb. ein Wiki.
 
-    git config --global http.proxy http://proxywbs:3128
-    git push -u origin main -c http.sslVerify=false
-    git push -c http.sslVerify=false -u origin main 
-    pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org django
-    pip install --proxy=http://proxywbs:3128 -r requirements.txt
+pip install --proxy=http://proxywbs:3128 -r requirements.txt
+
+.envs\company\Scripts\activate

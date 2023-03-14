@@ -9,8 +9,15 @@ event_manager
 und in den settings registrieren:
 event_manager/event_manager/settings.py
 
-MY_APPS = ["events"]
-INSTALLED_APPS.extend(MY_APPS)
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "eure_app",
+]
 
 ---------------------------------
 8. URLs anlegen
